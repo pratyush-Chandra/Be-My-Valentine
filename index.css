@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Rubik+Pixels&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: url('./assets/images/black_bg.png');
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+    /* font-family: 'Rubik Pixels', system-ui; */
+}
+.outer-container-div{
+    margin: 20vh auto;
+}
+.inner-container-div{
+    position: absolute;
+    z-index: 10;
+    top: calc(225px + 10vh);
+    left: 305px;
+    color: black;
+    font-size: 18px;
+    width: 60%;
+    margin: auto auto;
+    word-wrap: normal;
+}

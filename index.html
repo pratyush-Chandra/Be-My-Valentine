@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>Propose To GF</title>
+</head>
+<body>
+    <div style="font-size: 48px;display: inline;">Marks: <div style="font-size: 48px;display: inline;" id="marks-div"></div></div>
+    <h1 style="text-align: center;margin-top: 5vh;">B E C O M E &nbsp;&nbsp; M Y &nbsp;&nbsp; V A L E N T I N E</h1>
+    <div class="outer-container-div">
+        <img src="./assets/images/bg.png" alt="" style="display: block;margin: auto auto;scale: 1.8;">
+        <div class="inner-container-div">
+            <div id="question-number" style="display: inline;font-size: 38px;"></div>
+            <div id="question-name" style="display: inline;font-size: 38px;font-weight: bold;"></div>
+            <br>
+            <br>
+            <div id="question-description" style="font-size: 18px;font-weight: bold;padding-left: 40px;"></div>
+            <br>
+            <div id="options">
+                <div>
+                    <input type="radio" class="option-value" id="first-option" name="option-value" onchange="changeQuestion(this)"/>
+                    <label for="first-option" id="first-option-label"></label>
+                </div>
+                <div>
+                    <input type="radio" class="option-value" id="second-option" name="option-value" onchange="changeQuestion(this)"/>
+                    <label for="second-option" id="second-option-label"></label>
+                </div>
+                <div>
+                    <input type="radio" class="option-value" id="third-option" name="option-value" onchange="changeQuestion(this)"/>
+                    <label for="third-option" id="third-option-label"></label>
+                </div>
+                <div>
+                    <input type="radio" class="option-value" id="forth-option" name="option-value" onchange="changeQuestion(this)"/>
+                    <label for="forth-option" id="forth-option-label"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

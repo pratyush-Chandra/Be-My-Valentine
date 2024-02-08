@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pixelify+Sans&family=Rubik+Pixels&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#made-it-or-not{
+    font-size: 24px;
+    margin: auto auto;
+    width: 65%;
+    text-align: center;
+}
